@@ -1,0 +1,1 @@
+am facut setup-ul (instalare IDE + compilator + testare)
