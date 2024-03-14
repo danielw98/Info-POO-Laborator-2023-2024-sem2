@@ -6,6 +6,11 @@
 
 int main()
 {
+    Vector2 v = Vector2(10, 20);
+    // Vector2 v2 = v + v;
+    // Vector2 v3 = -v;
+    std::cout.operator<<(10);
+    // std::cout << v2 << std::endl;
     // ilustrare functionalitati existente + implementate de voi
     return 0;
 }
