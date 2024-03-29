@@ -19,20 +19,22 @@ Nota finală la materia Programare Orientată pe Obiecte este obținută astfel:
 
 Unde fiecare dintre note trebuie să fie minim 5 (nu rotunjit în sus) pentru a putea promova la următoarea etapă a evaluării.
 
+## Bonusuri
+
 Studenții pot obține în cadrul orelor de laborator și punctaje bonus pentru participarea activă sau diverse activități care asistă învățarea, în valoare maximă de 1p, unde doamna profesoara va decide ce înseamnă acel 1p la examen (presupun că 5% din cei 50% acordați examenului, vom afla la finalul semestrului).
 
 
 ## Structura Repo-ului
 
--**l01** - Introducere în limbajul C++ și conceptele de bază ale POO - trecerea de la structuri cu funcții globale cu prim parametru pointer către structură, la structuri cu pointeri la funcții cu prim parametru pointer către structură, la clase, ilustrând progresiv pe un exemplu cu Liste simplu înlănțuite trecerea de la structuri la clase și cum apare natural pointer-ul `this`.
+- **l01**: Introducere în limbajul C++ și conceptele de bază ale POO - trecerea de la structuri cu funcții globale cu prim parametru pointer către structură, la structuri cu pointeri la funcții cu prim parametru pointer către structură, la clase, ilustrând progresiv pe un exemplu cu Liste simplu înlănțuite trecerea de la structuri la clase și cum apare natural pointer-ul `this`.
 
--**l02** - ”Introducere în POO în C++ și Pointeri”, abordând utilizarea pointerilor și a referințelor în C++, cu accent pe pointerii către membrii claselor și funcții. Laboratorul 2 introduce noțiunile de constuctor, getters & setters, constructor de copiere, operator=, destructor, și ilustrează conceptul de deep-copy asupra unui array char*, precum și operatorii `new` și `delete`.
+- **l02**: Introducere în POO în C++ și Pointeri”, abordând utilizarea pointerilor și a referințelor în C++, cu accent pe pointerii către membrii claselor și funcții. Laboratorul 2 introduce noțiunile de constuctor, getters & setters, constructor de copiere, operator=, destructor, și ilustrează conceptul de deep-copy asupra unui array char*, precum și operatorii `new` și `delete`.
 
--**l03** - "Supraîncărcarea Operatorilor", explorând conceptul de supraîncărcare în C++, inclusiv supraîncărcarea operatorilor de citire și scriere (operator<< și operator>>), și operații matematice, folosind drept exemplu clasa `Vector2D`. Laboratorul 3 introduce și conceptul de liste de inițializare și funcții prietene (friend), dar și utilizarea parametrilor impliciți la funcții.
+- **l03**: "Supraîncărcarea Operatorilor", explorând conceptul de supraîncărcare în C++, inclusiv supraîncărcarea operatorilor de citire și scriere (operator<< și operator>>), și operații matematice, folosind drept exemplu clasa `Vector2D`. Laboratorul 3 introduce și conceptul de liste de inițializare și funcții prietene (friend), dar și utilizarea parametrilor impliciți la funcții.
 
--**l04** - Se concentrează pe utilizarea STL (Standard Template Library), evidențiind importanța containerelor, iteratoarelor și algoritmilor din librăria standard pentru dezvoltarea eficientă în C++. Laboratorul 4 de asemenea conține alte informații utile, precum redirecționarea input-ului din fișiere, sugestia de a folosi private/protected pentru metode care nu sunt apelate din afara clasei, și sintaxa nouă pentru liste de inițializare introdusă în C++11.
+- **l04**: Se concentrează pe utilizarea STL (Standard Template Library), evidențiind importanța containerelor, iteratoarelor și algoritmilor din librăria standard pentru dezvoltarea eficientă în C++. Laboratorul 4 de asemenea conține alte informații utile, precum redirecționarea input-ului din fișiere, sugestia de a folosi private/protected pentru metode care nu sunt apelate din afara clasei, și sintaxa nouă pentru liste de inițializare introdusă în C++11.
 
--**l05** - Introducere în moștenire (inheritance) în C++, detaliind implementarea ierarhiilor de clase, conceptul de clasă de bază și clasă derivată, modificatorii de acces la moștenire, ordinea apelării constructorilor și ordinea apelării destructorilor în ierarhia de clase, precum și exemple practice de upcasting și downcasting pe obiecte derivate din `Persoana`: `Student`, `Parinte`, `Angajat`. În cadrul Laboratului 5, am introdus și `static_cast<T>(obj)` și `dynamic_cast<T>(obj)`, despre care vom vedea mai multe detalii în Laboratorul 7. 
+- **l05**: Introducere în moștenire (inheritance) în C++, detaliind implementarea ierarhiilor de clase, conceptul de clasă de bază și clasă derivată, modificatorii de acces la moștenire, ordinea apelării constructorilor și ordinea apelării destructorilor în ierarhia de clase, precum și exemple practice de upcasting și downcasting pe obiecte derivate din `Persoana`: `Student`, `Parinte`, `Angajat`. În cadrul Laboratului 5, am introdus și `static_cast<T>(obj)` și `dynamic_cast<T>(obj)`, despre care vom vedea mai multe detalii în Laboratorul 7. 
 
 
 ## Proiecte Semestriale
