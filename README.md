@@ -13,9 +13,9 @@ Laboratorul de POO are ca scop introducerea și aprofundarea conceptelor fundame
 ## Notare
 
 Nota finală la materia Programare Orientată pe Obiecte este obținută astfel:
-    **1)** 25% proiecte laborator
-    **2)** 25% colocviu laborator
-    **3)** 50% examen curs
+-**1)** 25% proiecte laborator
+-**2)** 25% colocviu laborator
+-**3)** 50% examen curs
 
 Unde fiecare dintre note trebuie să fie minim 5 (nu rotunjit în sus) pentru a putea promova la următoarea etapă a evaluării.
 
