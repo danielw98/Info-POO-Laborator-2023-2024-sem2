@@ -41,7 +41,13 @@ Studenții pot obține în cadrul orelor de laborator și punctaje bonus pentru 
 ## Proiecte Semestriale
 
 Pe parcursul semestrului, veți avea 3 proiecte, și la fiecare dintre proiecte puteți obține nota maximă 12.
-Media finală va fi media notelor obținute în proiecte (Proiect_1 + Proiect_2 + Proiect_3) / 3 sau (0.33 * Proiect_1 + 0.67 * Proiect_2_+_3) / , rotunjită în sus după pragul de 0.3 (spre exemplu, 8.3 va fi considerat 9), însă mediile peste 10 vor fi trunchiate și veți obtine cei 25% din proiecte. Rotunjirea notei va fi făcută la final, nu la fiecare proiect în parte.
+
+Media finală va fi media notelor obținute în proiecte:
+- (Proiect_1 + Proiect_2 + Proiect_3) / 3 
+sau 
+- 0.33 * Proiect_1 + 0.67 * Proiect_2_+_3
+
+Unde nota finală este rotunjită în sus după pragul de 0.3 (spre exemplu, 8.3 va fi considerat 9), însă mediile peste 10 vor fi trunchiate și veți obtine cei 25% din proiecte. Rotunjirea notei va fi făcută la final, nu la fiecare proiect în parte.
 
 Cerințele pentru proiecte au fost preluate și adaptate de pe GitHub-ul lui Marius, pe care îl găsiți [aici](https://github.com/mcmarius/poo/).
 
