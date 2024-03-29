@@ -19,6 +19,7 @@ Nota finală la materia Programare Orientată pe Obiecte este obținută astfel:
 
 Unde fiecare dintre note trebuie să fie minim 5 (nu rotunjit în sus) pentru a putea promova la următoarea etapă a evaluării.
 
+
 ## Bonusuri
 
 Studenții pot obține în cadrul orelor de laborator și punctaje bonus pentru participarea activă sau diverse activități care asistă învățarea, în valoare maximă de 1p, unde doamna profesoara va decide ce înseamnă acel 1p la examen (presupun că 5% din cei 50% acordați examenului, vom afla la finalul semestrului).
@@ -87,7 +88,7 @@ De asemenea, un IDE diferit de CodeBlocks este recomandat, puteți să vă alege
 
 ## Contribuții
 
-Studenții sunt încurajați să contribuie la îmbunătățirea materialelor de laborator și a cerințelor proiectelor prin sugestii, corectarea bug-urilor sau adăugarea de noi exemple relevante. Dacă aveți propuneri, vedeți secțiunea de [Contact](#section-contact) pentru a le putea trimite.
+Studenții sunt încurajați să contribuie la îmbunătățirea materialelor de laborator și a cerințelor proiectelor prin sugestii, corectarea bug-urilor sau adăugarea de noi exemple relevante. Dacă aveți propuneri, vedeți secțiunea de [Contact](#section-contact) pentru a propune contribuții/schimbări.
 
 
 ## Licență
