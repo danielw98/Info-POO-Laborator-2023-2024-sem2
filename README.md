@@ -45,7 +45,7 @@ Pe parcursul semestrului, veți avea 3 proiecte, și la fiecare dintre proiecte 
 Media finală va fi media notelor obținute în proiecte:
 - (Proiect_1 + Proiect_2 + Proiect_3) / 3 
 sau 
-- 0.33 * Proiect_1 + 0.67 * Proiect_2_+_3
+- 0.33 * Proiect_1 + 0.67 * Proiect_2_plus_3
 
 Unde nota finală este rotunjită în sus după pragul de 0.3 (spre exemplu, 8.3 va fi considerat 9), însă mediile peste 10 vor fi trunchiate și veți obtine cei 25% din proiecte. Rotunjirea notei va fi făcută la final, nu la fiecare proiect în parte.
 
@@ -63,7 +63,7 @@ Cerințele specifice proiectului se află în fișierul `Proiect1_POO_Grupa133.p
 
 Ambele propuneri folosesc librării externe, și servesc drept proiecte mult mai bune de CV și învățare mai practică a programării, în opinia mea subiectivă.
 
-TODO: adaugă listă proiecte propuse, cerințe logică proiect, cerințe OOP minimale din cerințele proiectelor 2+3.
+TODO: adaugă listă proiecte propuse, cerințe logică proiect, cerințe OOP minimale din cerințele proiectelor 2 și 3.
 
 **Termen Limită Predare:** Laborator proiect saptămâna a 14-a (29 mai 2024).
 
@@ -87,9 +87,9 @@ Materialele de laborator au fost scrise într-o manieră în care să fie parcur
 Pentru a compila și rula programele din acest repository, veți avea nevoie de un compilator C++ compatibil, precum g++.
 
 De asemenea, un IDE diferit de CodeBlocks este recomandat, puteți să vă alegeți unul din lista de mai jos, sau altul pe care îl considerați, cu funcționalități similare celor enumerate:
-    - Visual Studio Code
-    - Visual Studio
-    - CLion
+- Visual Studio Code
+- Visual Studio
+- CLion
 
 
 ## Contribuții
