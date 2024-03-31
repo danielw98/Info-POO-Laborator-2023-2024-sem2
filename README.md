@@ -7,7 +7,25 @@ Laborant și autor materiale: Daniel Wagner
 
 ## Despre Laborator
 
-Laboratorul de POO are ca scop introducerea și aprofundarea conceptelor fundamentale ale programării orientate pe obiect în limbajul C++. Studenții vor învăța să modeleze și să implementeze soluții software folosind clase, obiecte, moștenire, polimorfism și alte caracteristici ale limbajului C++.
+Scopul Laboratorului de Programare Orientată pe Obiecte (POO) este să ofere studenților o introducere cât mai completă a conceptelor fundamentale ale OOP utilizând limbajul C++. Pe parcursul semestrului, studenții vor avea oportunitatea să învețe și să aplice principii importante ale OOP, inclusiv:
+
+Proiectarea ascendentă a claselor și încapsularea datelor: Conceptele de clasă și obiect, structura unei clase. De asemenea, importanța constructorilor, destructorilor, și metodelor de acces (getteri și setteri), elemente care contribuie la încapsularea și protejarea datelor.
+
+Supraîncărcarea funcțiilor și operatorilor: Cum C++ permite clasei să aibă mai multe funcții cu același nume (supraîncărcarea funcțiilor) și cum operatorii pot fi supraîncărcați pentru a lucra cu obiecte (supraîncărcarea operatorilor), îmbunătățind astfel flexibilitatea și lizibilitatea codului.
+
+Conversia datelor și membrii constanți și statici: Discutăm despre conversiile între diferite tipuri de obiecte și utilizarea membrilor constanți și statici, care adaugă o altă dimensiune la modul în care datele sunt gestionate și accesate în C++.
+
+Tratarea excepțiilor: Introducem mecanismele de tratare a excepțiilor în C++, care permit gestionarea elegantă și eficientă a erorilor și cazurilor neobișnuite în cadrul execuției programelor.
+
+Moștenirea și Polimorfismul: Acoperim conceptele de moștenire și polimorfism, care sunt esențiale în OOP pentru a crea un cod reutilizabil și extensibil. Discutăm despre diferitele tipuri de moștenire (simplă, multiplă, virtuală) și cum acestea pot fi utilizate pentru a construi ierarhii de clase.
+
+Șabloanele (Templates): Prezentăm șabloanele, care permit scrierea de funcții și clase generice ce pot opera cu orice tip de date, contribuind la flexibilitatea și puterea limbajului C++.
+
+Standard Template Library (STL): Explorăm STL-ul, o bibliotecă puternică care oferă containere de date, algoritmi și iteratori, facilitând scrierea de cod eficient și clar.
+
+Șabloane de proiectare (Design Patterns): În final, introducem conceptele de design patterns, oferind studenților o bază pentru a înțelege și aplica soluții bine testate la probleme comune de design software.
+
+Prin laboratoare interactive și proiecte practice, studenții vor dobândi nu doar cunoștințe teoretice, ci și competențe aplicative esențiale pentru dezvoltarea software modernă, pregătindu-i pentru provocările din industria IT.
 
 
 ## Notare
