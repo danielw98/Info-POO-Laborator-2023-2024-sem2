@@ -19,13 +19,13 @@ Scopul Laboratorului de Programare Orientată pe Obiecte (POO) este să ofere st
 
 - **Moștenirea și Polimorfismul**: Acoperim conceptele de moștenire și polimorfism, care sunt esențiale în OOP pentru a crea un cod reutilizabil și extensibil. Discutăm despre diferitele tipuri de moștenire (simplă, multiplă, virtuală) și cum acestea pot fi utilizate pentru a construi ierarhii de clase.
 
-- **Șabloanele (Templates)**: Prezentăm șabloanele, care permit scrierea de funcții și clase generice ce pot opera cu orice tip de date, contribuind la flexibilitatea și puterea limbajului C++.
+- **Șabloanele (Templates)**: Introducere template-uri, care permit scrierea de funcții și clase generice ce pot opera cu orice tip de date, contribuind la flexibilitatea și puterea limbajului C++. Spre exemplu, toate containerele STL sunt template-uri, și ați văzut deja utilitatea lor.
 
-- **Standard Template Library (STL)**: Explorăm STL-ul, o bibliotecă puternică care oferă containere de date, algoritmi și iteratori, facilitând scrierea de cod eficient și clar.
+- **Standard Template Library (STL)**: Explorăm STL-ul, o bibliotecă cu multe funcționalități care oferă containere de date, algoritmi și iteratori, facilitând scrierea de cod eficient și clar, indiferent de colecția de date folosită, dar și portabil.
 
-- **Șabloane de proiectare (Design Patterns)**: În final, introducem conceptele de design patterns, oferind studenților o bază pentru a înțelege și aplica soluții bine testate la probleme comune de design software.
+- **Șabloane de proiectare (Design Patterns)**: Spre finalul semestrului, introducem conceptele de design patterns, oferind o bază pentru a înțelege și aplica soluții bine testate la probleme comune de design software.
 
-- **Altele**: smart pointers, constructor de mutare, cast-uri, funcții/expresii lambda, etc.
+- **Altele**: smart pointers, constructor de mutare, cast-uri, funcții/expresii lambda, algoritmi din libraria standard extinsa C++, etc.
 
 Prin laboratoare interactive și proiecte practice, dar cel mai important, și muncă pe cont propriu, veți dobândi nu doar cunoștințe teoretice, ci și competențe aplicative esențiale pentru dezvoltarea software modernă, pregătindu-vă pentru un job în industrie.
 
@@ -51,7 +51,7 @@ Studenții pot obține în cadrul orelor de laborator și punctaje bonus pentru 
 
 - **l02**: Introducere în POO în C++ și Pointeri”, abordând utilizarea pointerilor și a referințelor în C++, cu accent pe pointerii către membrii claselor și funcții. Laboratorul 2 introduce noțiunile de constuctor, getters & setters, constructor de copiere, operator=, destructor, și ilustrează conceptul de deep-copy asupra unui array char*, precum și operatorii `new` și `delete`.
 
-- **l03**: "Supraîncărcarea Operatorilor", explorând conceptul de supraîncărcare în C++, inclusiv supraîncărcarea operatorilor de citire și scriere (operator<< și operator>>), și operații matematice, folosind drept exemplu clasa `Vector2D`. Laboratorul 3 introduce și conceptul de liste de inițializare și funcții prietene (friend), dar și utilizarea parametrilor impliciți la funcții.
+- **l03**: "Supraîncărcarea Operatorilor", explorând conceptul de supraîncărcare în C++, înițial pentru constructorul de copiere/operator=/destructor, extins inclusiv pentru supraîncărcarea operatorilor de citire și scriere (operator<< și operator>>), și operații matematice, folosind drept exemplu clasa `Vector2D`. Laboratorul 3 introduce și conceptul de liste de inițializare și funcții prietene (friend), dar și utilizarea parametrilor impliciți la funcții.
 
 - **l04**: Se concentrează pe utilizarea STL (Standard Template Library), evidențiind importanța containerelor, iteratoarelor și algoritmilor din librăria standard pentru dezvoltarea eficientă în C++. Laboratorul 4 de asemenea conține alte informații utile, precum redirecționarea input-ului din fișiere, sugestia de a folosi private/protected pentru metode care nu sunt apelate din afara clasei, și sintaxa nouă pentru liste de inițializare introdusă în C++11.
 
