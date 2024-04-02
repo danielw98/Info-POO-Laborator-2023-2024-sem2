@@ -32,7 +32,8 @@ int main()
     delete cerc;
 
     // obiecte derivate memorate drept referinte catre obiecte tip clasa de baza (upcasting)
-    Forma& forma2 = Forma();
+    Forma f = Forma();
+    Forma& forma2 = f;
     Cerc cercTmp = Cerc();
     Forma& cerc2 = cercTmp;
 
