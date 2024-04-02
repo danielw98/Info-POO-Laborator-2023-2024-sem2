@@ -4,7 +4,7 @@ class Forma {
 public:
     virtual void Deseneaza() const 
     {
-        std::cout << "Desensnd o forma generica.\n";
+        std::cout << "Desenand o forma generica.\n";
     }
 };
 
