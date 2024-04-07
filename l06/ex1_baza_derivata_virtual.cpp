@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 class Forma {
 public:
@@ -34,12 +35,20 @@ int main()
     // obiecte derivate memorate drept referinte catre obiecte tip clasa de baza (upcasting)
     Forma f = Forma();
     Forma& forma2 = f;
-    Cerc cercTmp = Cerc();
-    Forma& cerc2 = cercTmp;
-
     // se va afisa: Desensnd o forma generica.
     forma2.Deseneaza();
+
+    Cerc cercTmp = Cerc();
+    Forma& cerc2 = cercTmp;
+    // Cerc& cercRef = cercTmp;
+
+
     // se va afisa: Desenand un cerc.
     cerc2.Deseneaza();
+
+    std::vector<Forma*> forme;
+    forme.push_back(&forma2);
+    forme.push_back(&cercTmp);
+    
     return 0;
 }

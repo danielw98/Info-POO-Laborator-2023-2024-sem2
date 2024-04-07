@@ -9,7 +9,7 @@ public:
     // Metoda poate fi de asemenea virtuala dar cu corpul implementat
     void AfiseazaInformatii() { std::cout << "Forma\n"; }
     // Functie virtuala pura
-    virtual void Deseneaza() const = 0; 
+    virtual void Deseneaza() const = 0;
 };
 
 // Implementarea interfetei

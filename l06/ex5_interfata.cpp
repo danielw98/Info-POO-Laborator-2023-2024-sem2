@@ -35,7 +35,8 @@ void DeseneazaForma(const IForma& forma)
     forma.Deseneaza(); 
 }
 
-int main() {
+int main() 
+{
     Cerc cerc;
     Patrat patrat;
 

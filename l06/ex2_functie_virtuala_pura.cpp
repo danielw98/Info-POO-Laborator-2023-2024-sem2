@@ -18,7 +18,7 @@ int main()
     IForma *forma1 = new Cerc();
     // Afisare: Desenand un cerc.
     forma1->Deseneaza();
-
+    
     // apel de functie din derivata prin referinta catre baza
     Cerc cerc = Cerc();
     IForma& forma2 = cerc;
