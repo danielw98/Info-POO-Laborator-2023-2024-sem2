@@ -1,15 +1,17 @@
 #include <iostream>
 #include <vector>
 
-class Angajat {
+class IAngajat {
 public:
     virtual void AfiseazaRol() = 0;
     // virtual destructor daca clasele derivate aloca dinamic memorie
     // sa fie apleat destructorul corect din clasa derivata, nu din baza
-    virtual ~Angajat() {}
+    virtual ~IAngajat() {
+        std::cout << "~Angajat()\n";
+    };
 };
 
-class Manager : public Angajat {
+class Manager : public IAngajat {
 public:
     void AfiseazaRol() override {
         std::cout << "Manager\n";
@@ -17,9 +19,13 @@ public:
     void MetodaManager() {
         std::cout << "Metoda specifica manager\n";
     }
+    ~Manager() override
+    {
+        std::cout << "~Manager()" << std::endl;
+    }
 };
 
-class Inginer : public Angajat {
+class Inginer : public IAngajat {
 public:
     void AfiseazaRol() override {
         std::cout << "Inginer\n";
@@ -27,9 +33,13 @@ public:
     void MetodaInginer() { 
         std::cout << "Metoda specifica ingier\n";
     }
+    ~Inginer() override
+    {
+        std::cout << "~Inginer()" << std::endl;
+    }
 };
 
-void ProceseazaAngajat(Angajat *angajat) 
+void ProceseazaAngajat(IAngajat *angajat) 
 {
     Manager *manager;
     Inginer *inginer;
@@ -48,11 +58,11 @@ void ProceseazaAngajat(Angajat *angajat)
 
 int main() 
 {
-    std::vector<Angajat*> angajati;
+    std::vector<IAngajat*> angajati;
     angajati.push_back(new Manager());
     angajati.push_back(new Inginer());
 
-    for (Angajat *angajat : angajati) 
+    for (IAngajat *angajat : angajati) 
     {
         ProceseazaAngajat(angajat);
         delete angajat;

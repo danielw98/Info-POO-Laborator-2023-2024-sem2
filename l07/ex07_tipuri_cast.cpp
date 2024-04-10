@@ -30,7 +30,8 @@ void ExempluReinterpretCast(void)
     // pe Windows 64bit, long long are 8bytes, dimensiunea unui pointer
     long long ptr = 5323;
     // Conversia unui long intr-un pointer char* (in cazul acesta, adresa invalida)
-    char* charPtr = reinterpret_cast<char*>(ptr);  
+    char* charPtr = reinterpret_cast<char*>(ptr);
+    std::cout << charPtr << std::endl;
 }
 
 int main()
