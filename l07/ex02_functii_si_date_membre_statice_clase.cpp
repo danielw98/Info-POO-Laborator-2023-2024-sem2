@@ -19,7 +19,7 @@ int main()
 {
     // cu obiect
     Student student;
-    int nrStudenti;
+    int nrStudenti = 10;
     student.AdaugaStudenti(nrStudenti); // posibil dar nerecomandat (antipattern)
     std::cout << student.GetNumarStudenti() << std::endl; // idem
 
