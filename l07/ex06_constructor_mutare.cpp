@@ -13,6 +13,7 @@ public:
     // Constructor de mutare 
     Mutabil(Mutabil&& sursa) noexcept : data{sursa.data}, count{sursa.count} 
     { 
+        std::cout << "Apel cc Mutabil\n";
         // am transferat ownership-ul datelor, obiectul curent devine gol
         sursa.data = nullptr;
         sursa.count = 0;
@@ -20,6 +21,7 @@ public:
     // operator de atribuire prin mutare
     Mutabil& operator=(Mutabil&& sursa) noexcept 
     {
+        std::cout << "Apel op= Mutabil\n";
         if(this == &sursa)
             return *this;
         // toate datele alocate dinamic existente ale obiectului in care mutam
@@ -38,7 +40,11 @@ public:
     // Utilizarea =delete pentru a bloca copierea si reatribuirea implicite 
     Mutabil(const Mutabil&) = delete;  // Blocheaza copierea 
     Mutabil& operator=(const Mutabil&) = delete; // Blocheaza atribuirea 
-    ~Mutabil() { delete[] data; } // Destructor 
+    ~Mutabil() 
+    { 
+        std::cout << "~Mutabil()\n";
+        delete[] data; 
+    } // Destructor 
 };
 
 Mutabil CreeazaMutabil(int numElems) 
