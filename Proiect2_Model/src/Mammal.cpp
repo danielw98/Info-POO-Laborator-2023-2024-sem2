@@ -34,6 +34,7 @@ Mammal::Mammal(const Mammal& other) : AbstractAnimal(other)
             children[i] = other.children[i];
     }
 }
+
 // operator= atribuire prin copiere
 Mammal& Mammal::operator=(const Mammal& other)
 {
