@@ -40,7 +40,12 @@ Mammal& Mammal::operator=(const Mammal& other)
     if(this != &other)
     {
         numberOfChildren = other.numberOfChildren;
-
+        if(numberOfChildren != 0)
+        {
+            children = new Mammal[numberOfChildren];
+            for(int i = 0; i < numberOfChildren; i++)
+                children[i] = other.children[i];
+        }
     }
     return *this;
 }
