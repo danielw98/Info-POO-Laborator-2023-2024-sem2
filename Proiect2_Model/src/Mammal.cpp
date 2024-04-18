@@ -43,6 +43,7 @@ Mammal& Mammal::operator=(const Mammal& other)
         numberOfChildren = other.numberOfChildren;
         if(numberOfChildren != 0)
         {
+            delete[] children;
             children = new Mammal[numberOfChildren];
             for(int i = 0; i < numberOfChildren; i++)
                 children[i] = other.children[i];
