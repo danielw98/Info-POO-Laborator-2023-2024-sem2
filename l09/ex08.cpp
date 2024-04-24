@@ -11,18 +11,21 @@ public:
     explicit ErrorOr(T value) : result(value) {}
     explicit ErrorOr(std::string error) : result(error) {}
 
-    bool isError() const {
+    bool isError() const 
+    {
         return std::holds_alternative<std::string>(result);
     }
 
-    T& getValue() {
+    T& getValue() 
+    {
         if (isError()) {
             throw std::logic_error("Accesing error as value");
         }
         return std::get<T>(result);
     }
 
-    std::string getError() const {
+    std::string getError() const 
+    {
         if (!isError()) {
             throw std::logic_error("Accesing value as error");
         }
@@ -30,7 +33,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     ErrorOr<int> successResult(42);
     ErrorOr<int> errorResult("An error occurred");
 
