@@ -7,7 +7,7 @@ private:
 public:
     explicit UniquePtr(T* p = nullptr) : ptr(p) {}
 
-    ~UniquePtr() { delete ptr; }
+    ~UniquePtr() { std::cout << "~UniquePtr()\n"; delete ptr; }
 
     // Deleting copy constructor and assignment operator
     // So we will 'steal' the object, making it unique
@@ -39,6 +39,7 @@ public:
 int main() 
 {
     UniquePtr<int> myPtr{new int(10)};
+    *myPtr = 10;
     std::cout << "Value: " << *myPtr << std::endl;
 
     UniquePtr<int> movedPtr = std::move(myPtr);

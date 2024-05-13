@@ -106,5 +106,7 @@ int main()
     // Now, we get the classic "Hello world" - type string
     std::cout << "String Vector: " << stringVec[0] << ", " << stringVec[1] << std::endl;
 
+    int x = intVec[20];
+
     return 0;
 }

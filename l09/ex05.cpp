@@ -1,6 +1,6 @@
 #include <iostream>
 #include <memory>
-
+#include <stdbool.h>
 int main() 
 {
     std::unique_ptr<int[]> intArray(new int[5]{1, 2, 3, 4, 5});
@@ -11,6 +11,6 @@ int main()
     std::cout << std::endl;
 
     // `intArray` destructor will be automatically called
-    // No need to delete[]
+    // No need to delete
     return 0;
 }
