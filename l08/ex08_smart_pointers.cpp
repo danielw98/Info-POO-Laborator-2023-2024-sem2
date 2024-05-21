@@ -17,4 +17,5 @@ int main()
     } catch (const std::exception& e) {
         std::cerr << "Exceptie prinsa: " << e.what() << std::endl;
     }
+    return 0;
 }

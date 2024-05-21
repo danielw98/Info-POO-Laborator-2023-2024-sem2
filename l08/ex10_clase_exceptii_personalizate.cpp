@@ -12,4 +12,8 @@ void FunctieOarecare(void)
     throw EroarePersonalizata("A aparut o eroare personalizata.");
 }
 
-int main() { FunctieOarecare(); return 0; }
+int main() 
+{ 
+    FunctieOarecare(); 
+    return 0; 
+}
